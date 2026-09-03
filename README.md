@@ -27,8 +27,9 @@ The rocket free-falls (or descends under drag) from a fixed altitude and must la
 - **`simulink/`**
   - `simpleTVCRocketModel.slx` — Simulink block-diagram model of the vehicle plant (and/or TVC control loop); `.slxc` is MATLAB's auto-generated model cache, kept alongside for reference but safe to delete/regenerate locally.
 
+![Simulink Model](visual/Sımulink.png)
 ## Requirements
-visual/Sımulink.png
+
 MATLAB with the Control System Toolbox (`lqr`) and, for the `mpc/` scripts, the Model Predictive Control Toolbox (`nlmpc`). Add the repo root to the MATLAB path (or just `cd` into it) before running any script, since the `control/` scripts locate `utils/pwm_quantize.m` via a path relative to their own file location.
 
 ## Status
